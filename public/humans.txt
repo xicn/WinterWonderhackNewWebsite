@@ -1,0 +1,45 @@
+# humanstxt.org
+# The humans responsible & technology colophon
+
+*** Current Site ***
+# TEAM
+    Xiaojie Chen - responsible for implementing UI/UX designs from the previous site.
+
+# SITE
+
+    Last update: 2022/01/11
+    Standards: HTML5, CSS3
+    Components:
+      - Front-end: Tailwind CSS, React, React Router, Framer Motion
+      - Back-end: 
+    Tools: NPM, Vite, Git
+    Software: VS Code
+
+
+
+Previous Site:
+# TEAM
+
+    Sr. Code Monkey: Paul Esch-Laurent
+    Site: paulisaweso.me
+
+    Co-Sr. Code Monkey: Caden Sumner
+    Site: caden.io
+
+# THANKS
+
+    Our Sponsors
+    Stack Overflow
+    Caffeine
+
+    #tenacity
+
+# SITE
+
+    Last update: 0000/00/00
+    Standards: HTML5, CSS3
+    Components:
+      - Front-end: Sass, Skel
+      - Back-end: Netlify
+    Tools: Yarn, Gulp, Git
+    Software: VS Code
