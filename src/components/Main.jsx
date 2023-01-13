@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
+
 import { strings } from "../constants";
 const { title, subTitle, locationInfo } = strings;
 
 const Main = () => {
+
   return (
     <motion.div className="z-[5] mx-10 mt-10 border-y-2 py-10 px-4 text-center uppercase text-white"
       initial={{ opacity: 0 }}
