@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import infoImg from "../assets/info.png";
+
+import ImageGallery from "../components/ImageGallery";
 import { strings, info } from "../constants";
 const { forQuestions } = strings;
+
 
 
 const Info = () => {
@@ -12,11 +14,12 @@ const Info = () => {
 
     >
       {/* Wrapper Container */}
-      <motion.div className="z-[5] mx-10 mb-10 w-3/4 py-10 px-4 md:w-[55%]"
+      <motion.div className="z-[5] mx-10 mb-10 w-3/4 py-10 px-4 md:w-[55%] overflow-hidden"
         initial={{ opacity: 0, zIndex: 100 }}
         animate={{
           opacity: 1, transition: { duration: 1, delay: 0.4 },
         }}
+
       >
         {/* Close button */}
         <div className="flex justify-end">
@@ -46,7 +49,8 @@ const Info = () => {
         <h1 className="mt-10 font-poppins text-3xl font-semibold tracking-[8px] text-white after:block after:h-[2px] after:w-[100px] after:bg-white after:content-['']">
           INFO
         </h1>
-        <img src={infoImg} alt="Image" className="my-10  rounded-md " />
+        <ImageGallery />
+
 
         <p className="mb-10 text-white">{forQuestions.content}</p>
 

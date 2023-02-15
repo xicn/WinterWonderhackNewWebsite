@@ -61,13 +61,11 @@ export const info = [
 export const strings = {
   registrationTitle: {
     id: "str-1",
-    content:
-      "2022 WINTER WONDERHACK REGISTRATION",
+    content: "2023 WINTER WONDERHACK REGISTRATION",
   },
   subTitle: {
     id: "str-2",
-    content:
-      "FEBRUARY 18-20 AT VAN PELT AND OPIE LIBRARY",
+    content: "FEBRUARY 17-19 AT VAN PELT AND OPIE LIBRARY",
   },
   locationInfo: {
     id: "str-3",
@@ -76,12 +74,10 @@ export const strings = {
   },
   title: {
     id: "str-4",
-    content:
-      "2022 WINTER WONDERHACK",
+    content: "2023 WINTER WONDERHACK",
   },
   forQuestions: {
     id: "str-5",
-    content:
-      "Any questions? Shoot us an email at team@winterwonderhack.com.",
+    content: "Any questions? Shoot us an email at team@winterwonderhack.com.",
   },
 };

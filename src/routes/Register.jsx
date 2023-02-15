@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { strings } from "../constants";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   const navigate = useNavigate();
@@ -46,9 +47,23 @@ const Register = () => {
         <p className="mb-8 text-white">
           Register for free using the form below!
         </p>
+        <button
+          className="w-[300px] h-[200px]flex-1 border-2 text-white border-white px-5 leading-10 hover:bg-indigo-500 active:bg-indigo-600"
+          type="button"
+          onClick={() => {
+            window.location.href = 'https://forms.gle/73oJ1McusQiihwhcA';
+            return null;
+          }}
+        >
+          Register Now!
 
-        <div className="relative"> <iframe className=" absolute md:left-[-64px] sm:left-[-32px] left-0  w-full h-[3566px] " align="left" src="https://docs.google.com/forms/d/e/1FAIpQLSdgO5-2gGyEubRi7_9J-Vm6cgQp0-QIbJw9-fTdAXz4nn_A-w/viewform?embedded=true" >Loading…</iframe>
+        </button>
+
+
+        <div className="relative"> <iframe className=" absolute md:left-[-64px] sm:left-[-32px] left-0  w-full h-[3566px] " align="left" src="https://docs.google.com/forms/d/e/1FAIpQLSdF6WOEZClTVzXNMBFR-hhUadA1_wbSLjoJ_yH4nEWmjeH7hw/viewform?embedded=true" >Loading…</iframe>
         </div>
+
+
 
 
       </motion.div>
