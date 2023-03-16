@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import sched from "../assets/Schedule.png"
 
 const Schedule = () => {
   const navigate = useNavigate();
@@ -41,9 +42,10 @@ const Schedule = () => {
           Event Schedule
         </h1>
 
-        <p className="mb-8 text-white">
+        {/* <p className="mb-8 text-white">
           To be announced!
-        </p>
+        </p> */}
+        <img src={sched} alt="" />
       </motion.div>
     </div>
   );

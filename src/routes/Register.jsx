@@ -2,9 +2,11 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { strings } from "../constants";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Register = () => {
   const navigate = useNavigate();
+  const [open, setOpen] = useState(false)
 
   return (
     <div className="m-auto flex flex-col items-center justify-center pb-10">
@@ -47,17 +49,25 @@ const Register = () => {
         <p className="mb-8 text-white">
           Register for free using the form below!
         </p>
-        <button
-          className="w-[300px] h-[200px]flex-1 border-2 text-white border-white px-5 leading-10 hover:bg-indigo-500 active:bg-indigo-600"
-          type="button"
-          onClick={() => {
-            window.location.href = 'https://forms.gle/73oJ1McusQiihwhcA';
-            return null;
-          }}
-        >
-          Register Now!
+        {open &&
 
-        </button>
+          <button
+            className="w-[300px] h-[200px]flex-1 border-2 text-white border-white px-5 leading-10 hover:bg-indigo-500 active:bg-indigo-600"
+            type="button"
+            onClick={() => {
+              window.location.href = 'https://forms.gle/73oJ1McusQiihwhcA';
+              return null;
+            }}
+          >
+            Register Now!
+          </button>
+        }
+
+        {!open &&
+
+          <p className="mb-8 text-white">We are no longer accepting registrations requests as the registration period has ended.</p>
+        }
+
 
 
         <div className="relative"> <iframe className=" absolute md:left-[-64px] sm:left-[-32px] left-0  w-full h-[3566px] " align="left" src="https://docs.google.com/forms/d/e/1FAIpQLSdF6WOEZClTVzXNMBFR-hhUadA1_wbSLjoJ_yH4nEWmjeH7hw/viewform?embedded=true" >Loading…</iframe>

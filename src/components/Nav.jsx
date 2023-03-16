@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Nav = () => {
+  const [scheduleAnnounced, setscheduleAnnounced] = useState(true)
   return (
     <motion.div className=" relative z-[5] mb-10 mt-10 flex"
       initial={{ opacity: 0 }}
@@ -17,7 +19,7 @@ const Nav = () => {
           </Link>
           <Link
             to="schedule"
-            className="flex-1 border-2 border-white px-5 leading-10 hover:bg-indigo-500 active:bg-indigo-600"
+            className={`  flex-1 border-2 ${scheduleAnnounced && 'text-cyan-300'} text-indigio-700 border-white px-5 leading-10 hover:bg-indigo-500 active:bg-indigo-600`}
           >
             Schedule
           </Link>

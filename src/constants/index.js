@@ -12,8 +12,7 @@ export const info = [
   {
     id: "info-2",
     title: "WHO IS ELIGIBLE?",
-    content:
-      "If you are a current student, or if you have graduated in the last 12 months, you are eligible. If you are a high-school student and want to attend, great! Contact us below.",
+    content: "If you are a current MTU student, you are eligible.",
   },
   {
     id: "info-3",
@@ -48,7 +47,7 @@ export const info = [
     id: "info-8",
     title: "WHEN IS THE DEADLINE TO REGISTER?",
     content:
-      "The first round of decisions will be made in early February. This isn't a deadline, and if we don't have room for you at first, we may accept you later; it is common to be accepted off the waitlist after the first round of decisions.",
+      "The first round of decisions will be made in early March. This isn't a deadline, and if we don't have room for you at first, we may accept you later; it is common to be accepted off the waitlist after the first round of decisions.",
   },
   {
     id: "info-9",
@@ -65,7 +64,7 @@ export const strings = {
   },
   subTitle: {
     id: "str-2",
-    content: "FEBRUARY 17-19 AT VAN PELT AND OPIE LIBRARY",
+    content: "March 17-19 AT VAN PELT AND OPIE LIBRARY",
   },
   locationInfo: {
     id: "str-3",

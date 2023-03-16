@@ -6,7 +6,7 @@ import Coming from "./components/Coming";
 
 const App = () => {
 
-  const [coming, setComing] = useState(true);
+  const [coming, setComing] = useState(false);
   return (
     <div className="m-auto flex flex-1 flex-col items-center justify-center py-5"
 
