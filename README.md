@@ -14,7 +14,7 @@
 
 Provide an introduction to your project, explaining what it does and why it is useful.
 
-![alt text](website.png "Title")
+![alt text](https://github.com/xicn/WinterWonderhackNewWebsite/blob/main/public/website.png?raw=true "Landing page")
 
 ## Installation
 
@@ -52,7 +52,7 @@ All development should happen in `./src folder`:
 ```
 
 - In the `src/index.css` file of this project, the core directives of Tailwind CSS are imported and correctly configured. This allows you to utilize Tailwind CSS features seamlessly. Additionally, you also have the option to write Vanilla CSS code in this file if needed.
-  ![alt text](css.png "Tailwind")
+  ![alt text](https://github.com/xicn/WinterWonderhackNewWebsite/blob/main/public/css.png?raw=true "index.css file")
 
 - The setup for React Router can be found in the `src/index.js` file of this project. The route components are created and imported from the `src/routes` folder. If you need to add new routes to your application, you should create the corresponding components in the `src/routes` folder and then include them in the React Router configuration in the `src/index.js` file.
 
